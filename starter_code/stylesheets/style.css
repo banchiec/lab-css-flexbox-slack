@@ -5,3 +5,41 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: white;
+    z-index: 1;
+}
+img {
+    width: 6rem;
+}
+.navbar-slack {
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-slack ul {
+    display: none;
+}
+.navbar-slack img {
+    width: 8rem;
+}
+.navbar-slack svg{
+    width: 2rem;
+    height: 2rem;
+}
+
+/* header */
+.header-slack {
+
+}
+@media (max-width : 768px) {
+    .header-slack  {
+        flex-direction: column-reverse;
+        margin-top: 3.9rem;
+        padding-top: 1.2rem;
+    }
+}
+
